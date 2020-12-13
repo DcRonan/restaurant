@@ -1,6 +1,5 @@
 const path = require('path');
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
-// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -25,7 +24,7 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(jpg|png|gif|svg)$/i,
         use: [
           {
             loader: 'file-loader',

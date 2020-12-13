@@ -1,12 +1,11 @@
-// import _ from 'lodash';
+import _ from 'lodash';
 import '../scss/style.scss';
-import { myName, myCountry } from './myDetails';
-import icon from './images/linkedin.png';
+import icon from './images/bg-img.jpg';
 
 function component() {
   const element = document.createElement('div');
 
-  element.innerHTML = `${myName('Dan')} and ${myCountry('U.K.')}`;
+  element.innerHTML = 'I\'m inside a new div';
   element.classList.add('bg-success')
 
   const myIcon = new Image();
