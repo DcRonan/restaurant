@@ -1,5 +1,7 @@
 import image from './images/bg-img.jpg';
 
+const body = document.getElementById('body');
+
 const bgImg = () => {
   body.style.background = `url(${image})`;
   body.style.backgroundRepeat = 'no-repeat';

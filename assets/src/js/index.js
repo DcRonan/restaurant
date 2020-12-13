@@ -1,7 +1,9 @@
 import _ from 'lodash';
 import '../scss/style.scss';
-import './background-img'
-import { bgImg } from './background-img';
-import './dom-elements';
+import './background';
+import { bgImg } from './background';
+import { title, desc } from './home';
 
 bgImg();
+title();
+desc();
