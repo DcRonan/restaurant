@@ -1,28 +1,22 @@
-const navBar = document.createElement('nav');
-const ul = document.createElement('ul');
-const liOne = document.createElement('li');
-const liTwo = document.createElement('li');
-const liThree = document.createElement('li');
-
+  import * as e from './elements';
+  
   const nav = () => {
-    navBar.className += 'fixed-top w-100 p-3';
-    navBar.appendChild(ul);
-    ul.style.listStyle = 'none';
-    ul.className += 'd-flex justify-content-center';
-    ul.append(liOne, liTwo, liThree);
+    e.navBar.className += 'fixed-top w-100 p-3';
+    e.ul.style.listStyle = 'none';
+    e.ul.className += 'd-flex justify-content-center';
     menuItems();
   };
   
   const menuItems = () => {
-    liOne.innerHTML = 'Home';
-    liOne.setAttribute('id', 'home');
-    liTwo.innerHTML = 'Menu';
-    liTwo.setAttribute('id', 'menu');
-    liTwo.className += 'mr-3 ml-3';
-    liThree.innerHTML = 'Contact';
-    liThree.setAttribute('id', 'contact');
+    e.liOne.innerHTML = 'Home';
+    e.liOne.setAttribute('id', 'home');
+    e.liOne.className += 'btn text-white';
+    e.liTwo.innerHTML = 'Menu';
+    e.liTwo.setAttribute('id', 'menu');
+    e.liTwo.className += 'btn text-white';
+    e.liThree.innerHTML = 'Contact';
+    e.liThree.setAttribute('id', 'contact');
+    e.liThree.className += 'btn text-white';
   };
-
-content.appendChild(navBar);
 
 export {nav};

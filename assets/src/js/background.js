@@ -1,13 +1,11 @@
 import image from './images/bg-img.jpg';
 
-const body = document.getElementById('body');
-
 const bgImg = () => {
-  body.style.background = `url(${image})`;
-  body.style.backgroundRepeat = 'no-repeat';
-  body.style.backgroundAttachment = 'fixed';
-  body.style.backgroundPosition = 'center';
-  body.style.backgroundSize = 'cover';
+  document.body.style.background = `url(${image})`;
+  document.body.style.backgroundRepeat = 'no-repeat';
+  document.body.style.backgroundAttachment = 'fixed';
+  document.body.style.backgroundPosition = 'center';
+  document.body.style.backgroundSize = 'cover';
 };
 
 export {bgImg};
