@@ -6,4 +6,8 @@ const desc = () => e.h4.innerHTML = 'Lorem ipsum dolor sit amet consectetur adip
 
 e.content.className += 'h-100 text-center text-white d-flex flex-column justify-content-center align-items-center';
 
+e.liOne.addEventListener('click', () => {
+  e.content.appendChild(e.formDiv);
+})
+
 export { title, desc };
