@@ -8,7 +8,7 @@ const form = () => {
   e.formTag.appendChild(e.formGroupThree).className = 'form-group w-100';
   formInputs();
   e.formTag.appendChild(e.formBtn).className = 'btn btn-info text-white';
-  e.formBtn.innerHTML = 'Submit';
+  e.formBtn.textContent = 'Submit';
 };
 
 const formInputs = () => {

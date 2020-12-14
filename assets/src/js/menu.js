@@ -16,11 +16,11 @@ const card = () => {
   e.cardImg.src = imgOne;
   e.cardDiv.appendChild(e.cardBody).className = 'card-body';
   e.cardBody.appendChild(e.cardH5).className = 'card-title text-dark';
-  e.cardH5.innerHTML = 'Menu #1';
+  e.cardH5.textContent = 'Menu #1';
   e.cardBody.appendChild(e.cardText).className = 'card-text text-dark';
-  e.cardText.innerHTML = 'This is some text of the menu item!!!';
+  e.cardText.textContent = 'This is some text of the menu item!!!';
   e.cardBody.appendChild(e.cardBtn).className = 'btn btn-info';
-  e.cardBtn.innerHTML = 'Full Details';
+  e.cardBtn.textContent = 'Full Details';
 }
 
 const cardTwo = () => {
@@ -30,11 +30,11 @@ const cardTwo = () => {
   e.cardTwoImg.src = imgTwo;
   e.cardTwoDiv.appendChild(e.cardTwoBody).className = 'card-body';
   e.cardTwoBody.appendChild(e.cardTwoH5).className = 'card-title text-dark';
-  e.cardTwoH5.innerHTML = 'Menu #2';
+  e.cardTwoH5.textContent = 'Menu #2';
   e.cardTwoBody.appendChild(e.cardTwoText).className = 'card-text text-dark';
-  e.cardTwoText.innerHTML = 'This is some text of the menu item!!!';
+  e.cardTwoText.textContent = 'This is some text of the menu item!!!';
   e.cardTwoBody.appendChild(e.cardTwoBtn).className = 'btn btn-info';
-  e.cardTwoBtn.innerHTML = 'Full Details';
+  e.cardTwoBtn.textContent = 'Full Details';
 }
 
 const cardThree = () => {
@@ -44,11 +44,11 @@ const cardThree = () => {
   e.cardThreeImg.src = imgThree;
   e.cardThreeDiv.appendChild(e.cardThreeBody).className = 'card-body';
   e.cardThreeBody.appendChild(e.cardThreeH5).className = 'card-title text-dark';
-  e.cardThreeH5.innerHTML = 'Menu #3';
+  e.cardThreeH5.textContent = 'Menu #3';
   e.cardThreeBody.appendChild(e.cardThreeText).className = 'card-text text-dark';
-  e.cardThreeText.innerHTML = 'This is some text of the menu item!!!';
+  e.cardThreeText.textContent = 'This is some text of the menu item!!!';
   e.cardThreeBody.appendChild(e.cardThreeBtn).className = 'btn btn-info';
-  e.cardThreeBtn.innerHTML = 'Full Details';
+  e.cardThreeBtn.textContent = 'Full Details';
 }
 
 export {menu};
