@@ -34,9 +34,4 @@ const formInputs = () => {
   ).classList = 'form-control';
 }
 
-e.liThree.addEventListener('click', () => {
-  e.content.removeChild(e.mainDesc);
-  e.content.appendChild(e.formTag).classList = 'bg-light rounded p-3 d-flex flex-column justify-content-center align-items-center';
-});
-
 export { form };
