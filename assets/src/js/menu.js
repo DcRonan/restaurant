@@ -1,5 +1,7 @@
 import * as e from './elements';
-import image from './images/bg-img.jpg';
+import imgOne from './images/menu-1.jpg';
+import imgTwo from './images/menu-2.jpg';
+import imgThree from './images/menu-3.jpg';
 
 const menu = () => {
   card();
@@ -11,7 +13,7 @@ const card = () => {
   e.menuDiv.appendChild(e.cardDiv).className = 'card m-3';
   e.cardDiv.style.width = '18rem';
   e.cardDiv.appendChild(e.cardImg).className = 'card-img-top';
-  e.cardImg.src = image;
+  e.cardImg.src = imgOne;
   e.cardDiv.appendChild(e.cardBody).className = 'card-body';
   e.cardBody.appendChild(e.cardH5).className = 'card-title text-dark';
   e.cardH5.innerHTML = 'Menu #1';
@@ -25,7 +27,7 @@ const cardTwo = () => {
   e.menuDiv.appendChild(e.cardTwoDiv).className = 'card m-3';
   e.cardTwoDiv.style.width = '18rem';
   e.cardTwoDiv.appendChild(e.cardTwoImg).className = 'card-img-top';
-  e.cardTwoImg.src = image;
+  e.cardTwoImg.src = imgTwo;
   e.cardTwoDiv.appendChild(e.cardTwoBody).className = 'card-body';
   e.cardTwoBody.appendChild(e.cardTwoH5).className = 'card-title text-dark';
   e.cardTwoH5.innerHTML = 'Menu #2';
@@ -39,7 +41,7 @@ const cardThree = () => {
   e.menuDiv.appendChild(e.cardThreeDiv).className = 'card m-3';
   e.cardThreeDiv.style.width = '18rem';
   e.cardThreeDiv.appendChild(e.cardThreeImg).className = 'card-img-top';
-  e.cardThreeImg.src = image;
+  e.cardThreeImg.src = imgThree;
   e.cardThreeDiv.appendChild(e.cardThreeBody).className = 'card-body';
   e.cardThreeBody.appendChild(e.cardThreeH5).className = 'card-title text-dark';
   e.cardThreeH5.innerHTML = 'Menu #3';
