@@ -5,6 +5,7 @@ import { nav } from './navbar';
 import { title, desc } from './home';
 import { form } from './contact';
 import { menu } from './menu';
+import { cardDiv } from './elements';
 
 bgImg();
 nav();
