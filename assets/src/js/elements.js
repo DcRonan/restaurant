@@ -12,13 +12,26 @@ const cardImg = document.createElement('img');
 const cardBody = document.createElement('div');
 const cardText = document.createElement('p');
 const cardBtn = document.createElement('a');
+const cardTwoDiv = document.createElement('div');
+const cardTwoImg = document.createElement('img');
+const cardTwoBody = document.createElement('div');
+const cardH5 = document.createElement('h5');
+const cardTwoH5 = document.createElement('h5');
+const cardTwoText = document.createElement('p');
+const cardTwoBtn = document.createElement('a');
+const cardThreeDiv = document.createElement('div');
+const cardThreeImg = document.createElement('img');
+const cardThreeBody = document.createElement('div');
+const cardThreeH5 = document.createElement('h5');
+const cardThreeText = document.createElement('p');
+const cardThreeBtn = document.createElement('a');
 const ul = document.createElement('ul');
 const liOne = document.createElement('li');
 const liTwo = document.createElement('li');
 const liThree = document.createElement('li');
 const h1 = document.createElement('h1');
 const h4 = document.createElement('h4');
-const cardH5 = document.createElement('h5');
+
 
 content.appendChild(navBar);
 content.appendChild(mainDesc);
@@ -47,5 +60,17 @@ export {
   cardBody,
   cardH5,
   cardText,
-  cardBtn
+  cardBtn,
+  cardTwoDiv,
+  cardTwoImg,
+  cardTwoBody,
+  cardTwoH5,
+  cardTwoText,
+  cardTwoBtn,
+  cardThreeDiv,
+  cardThreeImg,
+  cardThreeBody,
+  cardThreeH5,
+  cardThreeText,
+  cardThreeBtn
 };

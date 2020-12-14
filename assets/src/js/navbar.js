@@ -25,7 +25,7 @@ e.liOne.addEventListener('click', () => {
 });
 
 e.liTwo.addEventListener('click', () => {
-  e.content.appendChild(e.menuDiv).className = 'bg-danger';
+  e.content.appendChild(e.menuDiv).className = 'd-flex flex-wrap justify-content-center';
 });
 
 e.liThree.addEventListener('click', () => {
