@@ -33,7 +33,7 @@ const h1 = document.createElement('h1');
 const h4 = document.createElement('h4');
 
 
-content.appendChild(navBar);
+document.body.appendChild(navBar);
 content.appendChild(mainDesc);
 navBar.appendChild(ul);
 ul.append(liOne, liTwo, liThree);

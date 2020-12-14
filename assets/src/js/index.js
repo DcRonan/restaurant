@@ -8,14 +8,17 @@ import { menu } from './menu';
 import * as e from './elements';
 
 e.liOne.addEventListener('click', () => {
+  e.content.innerHTML = '';
   e.content.appendChild(e.mainDesc);
 });
 
 e.liTwo.addEventListener('click', () => {
+  e.content.innerHTML = '';
   e.content.appendChild(e.menuDiv).classList = 'd-flex flex-wrap justify-content-center';
 });
 
 e.liThree.addEventListener('click', () => {
+  e.content.innerHTML = '';
   e.content.appendChild(e.formTag).classList =
     'bg-light rounded p-3 d-flex flex-column justify-content-center align-items-center';
 });
