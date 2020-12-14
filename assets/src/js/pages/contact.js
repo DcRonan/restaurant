@@ -1,4 +1,4 @@
-import * as e from './elements';
+import * as e from '../components/elements';
 
 const form = () => {
   e.formTag.style.minWidth = '300px';

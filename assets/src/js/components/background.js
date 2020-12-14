@@ -1,4 +1,4 @@
-import image from './images/bg-img.jpg';
+import image from '../images/bg-img.jpg';
 
 const bgImg = () => {
   document.body.style.background = `url(${image})`;

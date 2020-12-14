@@ -1,11 +1,11 @@
 import _ from 'lodash';
 import '../scss/style.scss';
-import { bgImg } from './background';
-import { nav } from './navbar';
-import { title, desc } from './home';
-import { form } from './contact';
-import { menu } from './menu';
-import * as e from './elements';
+import { bgImg } from './components/background';
+import { nav } from './components/navbar';
+import { title, desc } from './pages/home';
+import { form } from './pages/contact';
+import { menu } from './pages/menu';
+import * as e from './components/elements';
 
 e.liOne.addEventListener('click', () => {
   e.content.innerHTML = '';
