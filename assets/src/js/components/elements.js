@@ -32,7 +32,6 @@ const liThree = document.createElement('li');
 const h1 = document.createElement('h1');
 const h4 = document.createElement('h4');
 
-
 document.body.appendChild(navBar);
 content.appendChild(mainDesc);
 navBar.appendChild(ul);
@@ -72,5 +71,5 @@ export {
   cardThreeBody,
   cardThreeH5,
   cardThreeText,
-  cardThreeBtn
+  cardThreeBtn,
 };

@@ -1,12 +1,5 @@
 import * as e from './elements';
 
-const nav = () => {
-  e.navBar.className += 'fixed-top w-100';
-  e.ul.style.listStyle = 'none';
-  e.ul.className += 'd-flex justify-content-center p-0';
-  menuItems();
-};
-
 const menuItems = () => {
   e.liOne.textContent = 'Home';
   e.liOne.setAttribute('id', 'home');
@@ -19,4 +12,11 @@ const menuItems = () => {
   e.liThree.className += 'btn text-white p-3';
 };
 
-export { nav };
+const nav = () => {
+  e.navBar.className += 'fixed-top w-100';
+  e.ul.style.listStyle = 'none';
+  e.ul.className += 'd-flex justify-content-center p-0';
+  menuItems();
+};
+
+export default nav;

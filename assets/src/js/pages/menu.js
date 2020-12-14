@@ -3,12 +3,6 @@ import imgOne from '../images/menu-1.jpg';
 import imgTwo from '../images/menu-2.jpg';
 import imgThree from '../images/menu-3.jpg';
 
-const menu = () => {
-  card();
-  cardTwo();
-  cardThree();
-};
-
 const card = () => {
   e.menuDiv.appendChild(e.cardDiv).className = 'card m-3';
   e.cardDiv.style.width = '18rem';
@@ -18,8 +12,7 @@ const card = () => {
   e.cardBody.appendChild(e.cardH5).className = 'card-title text-dark';
   e.cardH5.textContent = 'Pesto Pasta';
   e.cardBody.appendChild(e.cardText).className = 'card-text text-dark';
-  e.cardText.textContent =
-    'Farfalle pasta made with pesto from fresh basil, garlic, olive oil, pine nuts, and cheese pounded together into a thick, green paste, along with cherry tomatoes';
+  e.cardText.textContent = 'Farfalle pasta made with pesto from fresh basil, garlic, olive oil, pine nuts, and cheese pounded together into a thick, green paste, along with cherry tomatoes';
   e.cardBody.appendChild(e.cardBtn).className = 'btn btn-info';
   e.cardBtn.textContent = 'Full Details';
 };
@@ -46,11 +39,16 @@ const cardThree = () => {
   e.cardThreeDiv.appendChild(e.cardThreeBody).className = 'card-body d-flex flex-column justify-content-between';
   e.cardThreeBody.appendChild(e.cardThreeH5).className = 'card-title text-dark';
   e.cardThreeH5.textContent = 'Bruschetta';
-  e.cardThreeBody.appendChild(e.cardThreeText).className =
-    'card-text text-dark';
+  e.cardThreeBody.appendChild(e.cardThreeText).className = 'card-text text-dark';
   e.cardThreeText.textContent = 'Bruschetta, grilled slices of bread rubbed with raw garlic and topped with chopped tomatoes, fresh basil, and salt';
   e.cardThreeBody.appendChild(e.cardThreeBtn).className = 'btn btn-info';
   e.cardThreeBtn.textContent = 'Full Details';
 };
 
-export { menu };
+const menu = () => {
+  card();
+  cardTwo();
+  cardThree();
+};
+
+export default menu;
