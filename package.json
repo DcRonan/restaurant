@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DcRonan/Repo-Template#readme",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "hint": "^6.1.1",
     "lodash": "^4.17.20"
   },
@@ -35,6 +36,8 @@
     "eslint-plugin-import": "^2.22.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0",
