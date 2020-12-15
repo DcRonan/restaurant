@@ -45,7 +45,7 @@ To create this website with only JavaScript, I used <b>DOM</b> (Document Object 
 
 ## Live Demo 🎥
 
-<a href="https://romantic-swanson-7f1776.netlify.app/"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+<a href="https://restaurant-poseidon.netlify.app/"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
 
 ## Install ⏳
 
