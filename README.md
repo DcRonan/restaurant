@@ -17,8 +17,8 @@
 
 > The purpose of this project was create a restaurant website, only using JavaScript.
 
-![screenshot](./assets/images/sc-2.png)
-![screenshot](./assets/images/sc-1.png)
+![screenshot](./src/js/images/sc-2.png)
+![screenshot](./src/js/images/sc-1.png)
 
 To create this website with only JavaScript, I used <b>DOM</b> (Document Object Model) to create, edit, place and add styling to the content. 
 
