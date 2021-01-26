@@ -15,12 +15,12 @@
 
 ## Description
 
-> The purpose of this project was create a restaurant website, only using JavaScript.
+> The purpose of this project was to create a restaurant website, only using JavaScript.
 
 ![screenshot](./src/js/images/sc-2.png)
 ![screenshot](./src/js/images/sc-1.png)
 
-To create this website with only JavaScript, I used <b>DOM</b> (Document Object Model) to create, edit, place and add styling to the content. 
+Created this website only using JavaScript, I used <b>DOM</b> (Document Object Model) to create, edit, place and add styling to the content. 
 
 ## Built With 🛠
 
@@ -54,17 +54,17 @@ To create this website with only JavaScript, I used <b>DOM</b> (Document Object 
 1. - [ ] Open your `Terminal`
 2. - [ ] Navigate to the directory where you will like to install the repo by running `cd restaurant`
 3. - [ ] Run `git clone git@github.com:DcRonan/restaurant.git` to download <b>or</b> you can download using `HTTPS` by running `git clone https://github.com/DcRonan/restaurant.git` in the terminal
-4. - [ ] Run `cd restaurant` to enter directory
+4. - [ ] Run `cd restaurant` to enter the directory
 5. - [ ] Run `npm i` to install all the packages
 6. - [ ] Run `npm run build` to build the app
 7. - [ ] Go on your preferred `browser` and open `dist/index.html` in the folder directory
 
 ## Testing ⚙
 
-> I have used linters to test my code, which include: [webhint](https://webhint.io/), [eslint](https://eslint.org/) and [stylelint](https://stylelint.io/)
+> I have used linters to test my code, which includes: [webhint](https://webhint.io/), [eslint](https://eslint.org/) and [stylelint](https://stylelint.io/)
 
 1. - [ ] Open `Terminal` again
-2. - [ ] Run `cd ADD-REPO-NAME` to enter directory
+2. - [ ] Run `cd ADD-REPO-NAME` to enter the directory
 3. - [ ] Run `npm test` to start testing
 4. - [ ] All tests will pass ✅
 
